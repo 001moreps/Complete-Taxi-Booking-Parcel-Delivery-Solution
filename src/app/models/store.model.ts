@@ -1,0 +1,1 @@
+export interface StoreProduct{id:string;name:string;category:string;description?:string;priceMinor:number;currency:'GHS';imageUrl?:string;stock:number;status:'ACTIVE'|'INACTIVE';}
