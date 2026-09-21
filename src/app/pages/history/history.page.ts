@@ -1,1 +1,1 @@
-import{Component}from'@angular/core';@Component({selector:'app-history',templateUrl:'./history.page.html'})export class HistoryPage{}
+import{Component}from'@angular/core';import{Router}from'@angular/router';@Component({selector:'app-history',templateUrl:'./history.page.html'})export class HistoryPage{constructor(private router:Router){}openDemo(){this.router.navigate(['/job','demo-job-001'])}}
