@@ -1,0 +1,1 @@
+import{Component}from'@angular/core';@Component({selector:'app-store',templateUrl:'./store.page.html'})export class StorePage{}
