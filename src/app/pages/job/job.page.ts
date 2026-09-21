@@ -1,0 +1,1 @@
+import{Component}from'@angular/core';@Component({selector:'app-job',templateUrl:'./job.page.html'})export class JobPage{}
