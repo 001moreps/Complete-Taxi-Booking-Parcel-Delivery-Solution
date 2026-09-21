@@ -1,0 +1,1 @@
+export interface RepairMessage{id:string;jobId:string;senderId:string;body:string;createdAt?:unknown;type:'TEXT'|'IMAGE'|'QUOTE';}
