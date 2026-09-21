@@ -1,0 +1,19 @@
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+  --moreps-primary: #0B6B5E;
+  --moreps-primary-dark: #075047;
+  --moreps-accent: #A8D5BA;
+  --moreps-ink: #10201D;
+  --moreps-muted: #6B7C78;
+  --moreps-bg: #F6F8F7;
+}
+
+html, body, ion-app { height: 100%; }
+body { margin: 0; background: var(--moreps-bg); color: var(--moreps-ink); font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
